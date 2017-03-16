@@ -269,10 +269,13 @@ Applyを推して適用後、以下を実行する
 
 - flex connect のチェックが入っていることを確認
 - AP-Groupの作成と作成したAP-groupへのAPのJOIN
-  - 左メニューのAdvancedから「AP group 」を選択。
-  - 対象のAP-groupを選択し、WLANsのタブで出力したいSSIDを登録
-  - APのチャンネルと電波出力が固定になっていないか、確認する。(前回利用時に固定設定している場合がある)
-
+  - WLANsタブの左メニューのAdvancedから「AP group 」を選択。
+  - 対象のAP-groupを選択し、APsタブのAdd APs to the Groupで入れたいグループにチェックしadd APs
+  - (対象のAP-groupを選択し、WLANsのタブで出力したいSSIDを登録) 
+- APのチャンネルと電波出力が固定になっていないか、確認する。(前回利用時に固定設定している場合がある)
+  - WIRELESSタブの左メニュー内のAccess Points内のRadiosの802.11で始まる2種類を見る。
+  - 各種APのPower Levelを確認し数字の右隣に「*」が付いている事を確認。
+ 
 ## <a name="ts_crib"> トラブルシュート虎の巻 </a>
 
 ### <a name="flexconnect_vlan_mix_1"> セグメント(VLAN)が混ざったような挙動を示す場合の対処 その1 </a>
